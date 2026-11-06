@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  Abrege
 
-## Getting Started
+<div align="center">
+  <p><strong>Résume n'importe quelle vidéo YouTube en un clin d'œil.</strong></p>
+</div>
 
-First, run the development server:
+---
 
+## À propos du projet
+
+**Abrege** est une application web moderne qui permet d'extraire et de synthétiser le contenu de vidéos YouTube de manière instantanée. Fini de perdre des heures à visionner de longues vidéos : l'application génère un résumé structuré, clair et percutant en quelques secondes.
+
+---
+
+## Stack Technique
+
+* **Framework :** [Next.js](https://nextjs.org/) (App Router)
+* **Interface & Style :** [Tailwind CSS](https://tailwindcss.com/)
+* **Bibliothèque UI :** [React](https://react.dev/)
+* **Langage :** JavaScript / JSX
+
+---
+
+## ⚙️ Installation & Démarrage
+
+Suivez ces étapes pour lancer le projet en local sur votre machine.
+
+### 1. Cloner le projet
 ```bash
+git clone [https://github.com/votre-nom-dutilisateur/abrege.git](https://github.com/votre-nom-dutilisateur/abrege.git)
+cd abrege
+
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+# ou
+bun install
+
+Configurer les variables d'environnement
+
+GEMINI_API_KEY="votre_clé_api_gemini_ici"
+
+Lancer le serveur de développement
+
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
